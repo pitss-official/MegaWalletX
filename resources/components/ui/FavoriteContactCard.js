@@ -1,6 +1,7 @@
 import React from "react";
 import {MDBDataTable} from "mdbreact";
-
+//i/ /have not used this in project
+//it is redundant
 class FavoriteContactCard extends React.Component{
     render() {
         const data = {

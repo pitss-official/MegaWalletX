@@ -1,5 +1,6 @@
 import React from 'react';
 import { MDBDataTable } from 'mdbreact';
+
 class MyTransactions extends React.Component{
     render(){
     return (
