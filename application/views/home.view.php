@@ -43,9 +43,9 @@ use Middleware\Auth; ?>
             <div class="fix-width">
                 <div class="row banner-text">
                     <div class="col-lg-5 m-t-20">
-                        <h1>The Most Beautiful &amp; Powerful <span class="text-info">Material Design</span> based Admin Dashboard Template</h1>
-                        <p class="subtext"><span class="font-medium">Bootstrap 4 </span>Admin Template + Angular cli Starter kit,  <span class="font-medium">Light &amp; Dark</span> Versions, Landing Page, <span class="font-medium">6 Demo</span> Variations, <span class="font-medium">6 Dashboard</span> Variations, <span class="font-medium">100+</span> Integrated Plugins, <span class="font-medium">600+</span> Pages, <span class="font-medium">3000+</span> Font Icons, <span class="font-medium">500+</span> UI Components &amp; much more...</p>
-                        <div class="down-btn"> <a href="#demos" class="btn btn-info m-b-10">VIEW DEMOS</a> <a href="https://themeforest.net/item/materialpro-bootstrap-4-admin-template/20203944?ref=MARUTI" class="btn btn-success m-b-10">BUY NOW</a> </div>
+                        <h1>The Most Beautiful &amp; Powerful <span class="text-info">Wallet Application</span> based on Laravel and Vue.js</h1>
+                        <p class="subtext"><span class="font-medium">Payments</span> has now become easier with <span class="font-medium">Mega Wallet </span> based on<span class="font-medium">PHP7 and React.js</span> which is a <span class="font-medium">Single Page Application.</span> It is fully responsive admin dashboard template built with Bootstrap Framework, HTML5 & CSS3, Media query. </p>
+                        <div class="down-btn"> <a href="#" class="btn btn-info m-b-10">PHP7 Nu Framework by Pawan and Anukriti</a> <a href="#" class="btn btn-success m-b-10">React.JS</a> </div>
                     </div>
                     <div class="col-lg-7">
                         <div class="hero-banner">
@@ -54,54 +54,26 @@ use Middleware\Auth; ?>
                     </div>
                 </div>
             </div>
-            <div class="row light-blue">
-                <div class="col-md-12" id="demos">
-                    <div class="text-center"> <small class="text-info">The Most Beautiful Bootstrap Admin Template</small>
-                        <h2 class="display-7">Powerful Admin Template of 2017</h2>
-                        <p>Don’t go by our Words, checkout our awesome demos and verify yourself.
-                            <br/>You will surely fall in love over the fresh design & brilliant code.</p>
-                    </div>
-                    <div class="max-width">
-                        <div class="row text-center">
-                            <div class="col-md-4 m-t-40">
-                                <div class="image-box"> <img src="images/material-demo1.jpg" alt="demo1" class="img-responsive" />
-                                    <div class="image-overly"> <a class="btn btn-rounded btn-info" href="https://wrappixel.com/demos/admin-templates/material-pro/material/index.html" target="_blank">Live Preview</a> </div>
-                                </div>
-                                <h5 class="p-20">Main Demo Version</h5> </div>
-                            <div class="col-md-4 m-t-40">
-                                <div class="image-box"> <img src="images/material-demo2.jpg" alt="demo2" class="img-responsive" />
-                                    <div class="image-overly"> <a class="btn btn-rounded btn-info" href="https://wrappixel.com/demos/admin-templates/material-pro/minisidebar/index2.html" target="_blank">Live Preview</a> </div>
-                                </div>
-                                <h5 class="p-20">Mini Sidebar Demo Version</h5> </div>
-                            <div class="col-md-4 m-t-40">
-                                <div class="image-box"> <img src="images/material-demo3.jpg" alt="demo3" class="img-responsive" />
-                                    <div class="image-overly"> <a class="btn btn-rounded btn-info" href="https://wrappixel.com/demos/admin-templates/material-pro/horizontal/index3.html" target="_blank">Live Preview</a> </div>
-                                </div>
-                                <h5 class="p-20">Horizontal Demo Version</h5> </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="row white-space">
                 <div class="col-md-12">
                     <div class="fix-width icon-section"> <small class="text-info">ALMOST COVERED EVERYTHING</small>
                         <h2 class="display-7">Amazing Features & Flexibility Provided</h2>
                         <div class="row m-t-40">
-                            <div class="col-lg-3 col-md-6"> <img src="images/color-skim.png" alt="Material Pro admin template">
-                                <h4 class="font-500">6 Color Schemes</h4>
-                                <p>We have included 6 pre-defined color schemes with Material Pro admin.</p>
+                            <div class="col-lg-3 col-md-6">
+                                <h4 class="font-500">Single Page Application</h4>
+                                <p>A single-page application works in the browser and requires no page reloads and no extra time for waiting. The page doesn’t need to be updated since content is downloaded automatically.</p>
                             </div>
-                            <div class="col-lg-3 col-md-6"> <img src="images/sidebars.png" alt="Material Pro admin template">
-                                <h4 class="font-500">Dark &amp; Light Sidebar</h4>
-                                <p>Included Dark and Light Sidebar for getting desire look and feel.</p>
+                            <div class="col-lg-3 col-md-6">
+                                <h4 class="font-500">VC Architecture Support</h4>
+                                <p> It provides faster development process as in VC; one programmer can work on the view while other is working on the controller to create the business logic for the web application.</p>
                             </div>
-                            <div class="col-lg-3 col-md-6"> <img src="images/pages.png" alt="Material Pro admin template">
-                                <h4 class="font-500">700+ Page Templates</h4>
-                                <p>Yes, we have 6 demos &amp; 120+ Pages per demo to make it easier.</p>
+                            <div class="col-lg-3 col-md-6">
+                                <h4 class="font-500">Authentication</h4>
+                                <p>Authentication is the most important factor in a web application, and developers need to spend a lot of time writing the authentication code. Laravel contains an inbuilt authentication system.</p>
                             </div>
-                            <div class="col-lg-3 col-md-6"> <img src="images/ui-component.png" alt="Material Pro admin template">
-                                <h4 class="font-500">500+ UI Components</h4>
-                                <p>Almost 500+ UI Components being given with Material Pro admin Pack.</p>
+                            <div class="col-lg-3 col-md-6">
+                                <h4 class="font-500">Performance and flexibility</h4>
+                                <p>A competitive SPA usually transfers all of its UI to the client, thanks to its JavaScript SDK of choice (Angular, JQuery, Bootstrap, or any such). This is often good for network performance</p>
                             </div>
                         </div>
                         <div class="text-center">
@@ -112,20 +84,20 @@ use Middleware\Auth; ?>
             </div>
             <div class="row light-blue">
                 <div class="col-md-12">
-                    <div class="fix-width text-center"> <small class="text-info">ALMOST COVERED EVERYTHING</small>
-                        <h2 class="display-7">What users say about <?= env('name') ?></h2>
+                    <div class="fix-width text-center">
+                        <h2 class="display-7">What users say about Mega Wallet X</h2>
                         <div class="tesimonial-box owl-carousel owl-theme" id="owl-demo2">
                             <div class="item">
-                                <p class="testimonial-text"><b class="font-500">The free verstemplate to support the developer. It’s a great, lightwe!</b> </p>
+                                <p class="testimonial-text"><b class="font-500">The free wallet to support the developer. It’s a great, lightweight!</b> </p>
                                 <div class="username"><b>Nick Stanbridge<br/><small class="text-danger"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></small></b></div>
                             </div>
                             <div class="item">
-                                <p class="testimonial-text"><b class="font-500">This front-en and later also help me download finished, it is worth!</b> </p>
+                                <p class="testimonial-text"><b class="font-500">This wallet has helped me a lot in payments, it is worth!</b> </p>
                                 <div class="username"><b>Shinwu Ch<br/><small class="text-danger"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></small></b></div>
                             </div>
                             <div class="item">
-                                <p class="testimonial-text"><b class="font-500">in my opinionorth the money you pay for it… Go ahead & give it a try</b> </p>
-                                <div class="username"><b>Mohammed Shameem<br/><small class="text-danger"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></small></b></div>
+                                <p class="testimonial-text"><b class="font-500">In my opinion the money you pay for it… Go ahead & give it a try</b> </p>
+                                <div class="username"><b>Rohan Sharma<br/><small class="text-danger"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></small></b></div>
                             </div>
                         </div>
                     </div>
