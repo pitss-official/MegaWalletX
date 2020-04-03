@@ -43,7 +43,7 @@ use Middleware\Auth; ?>
             <div class="fix-width">
                 <div class="row banner-text">
                     <div class="col-lg-5 m-t-20">
-                        <h1>The Most Beautiful &amp; Powerful <span class="text-info">Wallet Application</span> based on Laravel and Vue.js</h1>
+                        <h1>The Most Beautiful &amp; Powerful <span class="text-info">Wallet Application</span><br> based on Our PHP7 based <b>Nu Framework</b> and React.js</h1>
                         <p class="subtext"><span class="font-medium">Payments</span> has now become easier with <span class="font-medium">Mega Wallet </span> based on<span class="font-medium">PHP7 and React.js</span> which is a <span class="font-medium">Single Page Application.</span> It is fully responsive admin dashboard template built with Bootstrap Framework, HTML5 & CSS3, Media query. </p>
                         <div class="down-btn"> <a href="#" class="btn btn-info m-b-10">PHP7 Nu Framework by Pawan and Anukriti</a> <a href="#" class="btn btn-success m-b-10">React.JS</a> </div>
                     </div>
@@ -69,7 +69,7 @@ use Middleware\Auth; ?>
                             </div>
                             <div class="col-lg-3 col-md-6">
                                 <h4 class="font-500">Authentication</h4>
-                                <p>Authentication is the most important factor in a web application, and developers need to spend a lot of time writing the authentication code. Laravel contains an inbuilt authentication system.</p>
+                                <p>Authentication is the most important factor in a web application, and developers need to spend a lot of time writing the authentication code. Our Nu Framework contains an inbuilt authentication system.</p>
                             </div>
                             <div class="col-lg-3 col-md-6">
                                 <h4 class="font-500">Performance and flexibility</h4>
