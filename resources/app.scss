@@ -1,0 +1,480 @@
+//@import "~bootstrap-css-only/css/bootstrap.min.css";
+//@import '~mdbreact/dist/css/mdb.css';
+@import "scss/datatable.css";
+$green: #2ecc71;
+$red: #e74c3c;
+$blue: #3498db;
+$yellow: #f1c40f;
+$purple: #8e44ad;
+$turquoise: #1abc9c;
+
+// Basic Button Style
+.stylish-btn {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid $red;
+  border-radius: 0.6em;
+  color: $red;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    outline: 0;
+  }
+}
+
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype');
+}
+//body {
+//  background: #313131;
+//  font-family: Raleway, Arial, sans-serif;
+//  font-size: 15px;
+//}
+//* {
+//  -webkit-box-sizing: content-box;
+//  -moz-box-sizing: content-box;
+//  box-sizing: content-box;
+//  -webkit-transition: all 0.4s linear;
+//  -moz-transition: all 0.4s linear;
+//  -o-transition: all 0.4s linear;
+//  transition: all 0.4s linear;
+//  margin: 0;
+//  padding: 0;
+//}
+.columns {
+  display: flex;
+}
+.columns.two .block-button a {
+  -webkit-border-radius: 2px !important;
+  -webkit-background-clip: padding-box !important;
+  -moz-border-radius: 2px !important;
+  -moz-background-clip: padding !important;
+  border-radius: 2px !important;
+  background-clip: padding-box !important;
+}
+.columns.two .block-button .ico {
+  font-size: 1.5rem;
+}
+.columns.two .block-button .txt {
+  margin-left: 10px;
+}
+.block-button {
+  margin: 40px;
+}
+.block-button a {
+  width: 80px;
+  height: 80px;
+  -webkit-border-radius: 50%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50%;
+  -moz-background-clip: padding;
+  border-radius: 50%;
+  background-clip: padding-box;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+.block-button a .ico {
+  font-size: 2.8rem;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+.block-button.button-style1 a:after,
+.block-button.button-style9 a:after {
+  background: #123851;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 4px solid #2980b9;
+  content: '';
+  z-index: -1;
+  -webkit-border-radius: 50%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50%;
+  -moz-background-clip: padding;
+  border-radius: 50%;
+  background-clip: padding-box;
+}
+.block-button.button-style1 a:hover:after,
+.block-button.button-style9 a:hover:after {
+  border-color: transparent;
+  animation: spinning cubic-bezier(0.18, 0.14, 0.29, 1) 1s;
+  border-right-color: #2980b9;
+  border-left-color: #2980b9;
+  border-top-color: #ffffff !important;
+  border-bottom-color: #ffffff !important;
+}
+.block-button.button-style1 lesshat-selector,
+.block-button.button-style9 lesshat-selector {
+  -lh-property: 0; }
+@-webkit-keyframes spinning{ 0%{ -webkit-transform: rotate(0deg);} 100%{ -webkit-transform: rotate(360deg);}}
+@-moz-keyframes spinning{ 0%{ -moz-transform: rotate(0deg);} 100%{ -moz-transform: rotate(360deg);}}
+@-o-keyframes spinning{ 0%{ -o-transform: rotate(0deg);} 100%{ -o-transform: rotate(360deg);}}
+@keyframes spinning{ 0%{-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-ms-transform: rotate(0deg);transform: rotate(0deg);} 100%{-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);-ms-transform: rotate(360deg);transform: rotate(360deg);}}
+[not-existing] {
+  zoom: 1;
+}
+.block-button.button-style2 a {
+  background: #27ae60;
+  border: 4px solid #3dd37c;
+}
+.block-button.button-style2 a:hover .ico {
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+.block-button.button-style2:hover {
+  -webkit-filter: drop-shadow(1px 4px 4px rgba(0, 0, 0, 0.4));
+  -moz-filter: drop-shadow(1px 4px 4px rgba(0, 0, 0, 0.4));
+  -ms-filter: drop-shadow(1px 4px 4px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(1px 4px 4px rgba(0, 0, 0, 0.4));
+}
+.block-button.button-style3 a {
+  background: #c0392b;
+  border: 4px solid #e74c3c;
+}
+.block-button.button-style3:hover {
+  -webkit-transform: translateY(-8%);
+  -moz-transform: translateY(-8%);
+  -ms-transform: translateY(-8%);
+  -o-transform: translateY(-8%);
+  transform: translateY(-8%);
+}
+.block-button.button-style4 {
+  position: relative;
+}
+.block-button.button-style4 a {
+  border: 4px solid #9b59b6;
+}
+.block-button.button-style4:after {
+  background: #8e44ad;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  content: '';
+  z-index: -1;
+  -webkit-border-radius: 50%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50%;
+  -moz-background-clip: padding;
+  border-radius: 50%;
+  background-clip: padding-box;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+.block-button.button-style4:hover:after {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  opacity: 0;
+}
+.block-button.button-style5 {
+  position: relative;
+}
+.block-button.button-style5 a {
+  border: 4px solid #e67e22;
+}
+.block-button.button-style5:after {
+  background: #d35400;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  content: '';
+  z-index: -1;
+  -webkit-border-radius: 50%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50%;
+  -moz-background-clip: padding;
+  border-radius: 50%;
+  background-clip: padding-box;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+.block-button.button-style5:hover:after {
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  opacity: 0;
+}
+.block-button.button-style6 a {
+  background: #f39c12;
+  border: 4px solid #f1c40f;
+}
+.block-button.button-style6 a .ico {
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.block-button.button-style6 a:hover .ico {
+  -webkit-transform: scale(4);
+  -moz-transform: scale(4);
+  -ms-transform: scale(4);
+  -o-transform: scale(4);
+  transform: scale(4);
+  opacity: 0;
+}
+.block-button.button-style7 a {
+  background: #16a085;
+}
+.block-button.button-style7 a:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 50%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50%;
+  -moz-background-clip: padding;
+  border-radius: 50%;
+  background-clip: padding-box;
+  border: 4px solid #1abc9c;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.block-button.button-style7 a:hover:after {
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -ms-transform: scale(2);
+  -o-transform: scale(2);
+  transform: scale(2);
+  opacity: 0;
+}
+.block-button.button-style8 {
+  overflow: hidden;
+}
+.block-button.button-style8 a {
+  background: #7f8c8d;
+}
+.block-button.button-style8 a:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 50%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50%;
+  -moz-background-clip: padding;
+  border-radius: 50%;
+  background-clip: padding-box;
+  border: 4px solid #95a5a6;
+}
+.block-button.button-style8 a .ico {
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.block-button.button-style8:hover .ico {
+  opacity: 0;
+  -webkit-transform: skewX(-40deg) translateX(200px);
+  -moz-transform: skewX(-40deg) translateX(200px);
+  -ms-transform: skewX(-40deg) translateX(200px);
+  -o-transform: skewX(-40deg) translateX(200px);
+  transform: skewX(-40deg) translateX(200px);
+}
+
+
+
+//BUTTON 1
+.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  &:hover {
+    box-shadow: 0 0 40px 40px $red inset;
+  }
+}
+
+//BUTTON 2
+.second {
+  border-radius: 3em;
+  border-color: $turquoise;
+  color: #fff;
+  background: {
+    image: linear-gradient(to right,
+            transparentize($turquoise, 0.4),
+            transparentize($turquoise, 0.4) 5%,
+            $turquoise 5%,
+            $turquoise 10%,
+            transparentize($turquoise, 0.4) 10%,
+            transparentize($turquoise, 0.4) 15%,
+            $turquoise 15%,
+            $turquoise 20%,
+            transparentize($turquoise, 0.4) 20%,
+            transparentize($turquoise, 0.4) 25%,
+            $turquoise 25%,
+            $turquoise 30%,
+            transparentize($turquoise, 0.4) 30%,
+            transparentize($turquoise, 0.4) 35%,
+            $turquoise 35%,
+            $turquoise 40%,
+            transparentize($turquoise, 0.4) 40%,
+            transparentize($turquoise, 0.4) 45%,
+            $turquoise 45%,
+            $turquoise 50%,
+            transparentize($turquoise, 0.4) 50%,
+            transparentize($turquoise, 0.4) 55%,
+            $turquoise 55%,
+            $turquoise 60%,
+            transparentize($turquoise, 0.4) 60%,
+            transparentize($turquoise, 0.4) 65%,
+            $turquoise 65%,
+            $turquoise 70%,
+            transparentize($turquoise, 0.4) 70%,
+            transparentize($turquoise, 0.4) 75%,
+            $turquoise 75%,
+            $turquoise 80%,
+            transparentize($turquoise, 0.4) 80%,
+            transparentize($turquoise, 0.4) 85%,
+            $turquoise 85%,
+            $turquoise 90%,
+            transparentize($turquoise, 0.4) 90%,
+            transparentize($turquoise, 0.4) 95%,
+            $turquoise 95%,
+            $turquoise 100%);
+    position: 0 0;
+    size: 100%;
+  }
+  transition: background 300ms ease-in-out;
+
+  &:hover {
+    background-position: 100px;
+  }
+}
+
+//BUTTON 3
+.third {
+  border-color: $blue;
+  color: #fff;
+  box-shadow: 0 0 40px 40px $blue inset, 0 0 0 0 $blue;
+  transition: all 150ms ease-in-out;
+
+  &:hover {
+    box-shadow: 0 0 10px 0 $blue inset, 0 0 10px 4px $blue;
+  }
+}
+
+// BUTTON 4
+.fourth {
+  // background: $yellow;
+  border-color: $yellow;
+  color: #fff;
+  background: {
+    image: linear-gradient(45deg,$yellow 50%, transparent 50%);
+    position: 100%;
+    size: 400%;
+  }
+  transition: background 300ms ease-in-out;
+
+  &:hover {
+    background-position: 0;
+  }
+}
+
+//BUTTON 5
+.fifth {
+  border-color: $purple;
+  // border: 0;
+  border-radius: 0;
+  color: $purple;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: color 150ms ease-in-out;
+
+  &:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: $purple;
+    z-index: -1;
+    transition: width 150ms ease-in-out;
+  }
+
+  &:hover {
+    color: #fff;
+    &:after {
+      width: 110%;
+    }
+  }
+}
+
+//BUTTON 6
+.sixth {
+  border-radius: 3em;
+  border-color: $green;
+  color: $green;
+  background: {
+    image: linear-gradient(to bottom, transparent 50%, $green 50%);
+    position: 0% 0%;
+    size: 210%;
+  }
+  transition: background 150ms ease-in-out, color 150ms ease-in-out;
+
+  &:hover {
+    color: #fff;
+    background-position: 0 100%;
+  }
+}
