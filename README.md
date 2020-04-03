@@ -295,6 +295,8 @@ Glimpse of Our Application
 ![MegaWallet X](https://raw.githubusercontent.com/pitss-official/MegaWalletX/master/screenshots/5.png)
 ##### Authentication Validation
 ![MegaWallet X](https://raw.githubusercontent.com/pitss-official/MegaWalletX/master/screenshots/6.png)
+##### Registration Page
+![MegaWallet X](https://raw.githubusercontent.com/pitss-official/MegaWalletX/master/screenshots/6_.png)
 ##### Dashboard with frequently transacted on left pane
 ![MegaWallet X](https://raw.githubusercontent.com/pitss-official/MegaWalletX/master/screenshots/7.png)
 ##### Send Money and Recently Sent
