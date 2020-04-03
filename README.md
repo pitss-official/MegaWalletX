@@ -225,7 +225,7 @@ Frontend
 Our Framework supports *React.js* and *React Router* through WebPack. It acted very useful for developing 
 Mega Wallet X. 
 
-####Our Directory Structure for Mega Wallet X:
+#### Our Directory Structure for Mega Wallet X:
 ![Directory Hierarchy for Frontend](https://raw.githubusercontent.com/pitss-official/MegaWalletX/master/screenshots/frontend.png)
 
 Wehave used the following dependencies for our project
